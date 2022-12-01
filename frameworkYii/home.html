@@ -7,105 +7,249 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página Inicial</title>
 
+    <!--Importação do CSS do Bootstrap-->
+    <link rel="stylesheet" href="css/bootsrap.css">
+
+    <!--Importar jquey-->
+    <script src="js/jquery-3.6.1.js"></script>
+
+    <!--Importar o JS do bootstrap-->
+    <script src="js/bootstrap.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+        rel="stylesheet">
+
+
+    <style>
+        * {
+            font-family: 'Open Sans', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: rgb(0, 0, 0);
+            color: aliceblue;
+        }
+
+        .imagem {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 1500px;
+        }
+
+        p {
+            color: aliceblue;
+            padding-top: 50px;
+            padding-left: 50px;
+            padding-right: 50px;
+        }
+
+        .corpo {
+            margin-top: 0px;
+            padding-left: 200px;
+            padding-right: 200px;
+            padding-bottom: 100px;
+        }
+
+        h3 {
+            text-align: center;
+            color: aliceblue;
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        .titulos {
+            color: white;
+        }
+
+        .t1 {
+            color: Violet;
+        }
+
+        .t2 {
+            color: LightGreen;
+        }
+
+        .t3 {
+            color: Turquoise;
+        }
+
+        .t4 {
+            color: blueviolet;
+        }
+
+        .t5 {
+            color: SkyBlue;
+        }
+
+        .t6 {
+            color: CornflowerBlue;
+        }
+
+        .t7{
+            color:Silver;
+        }
+        li {
+            color: violet;
+        }
+    </style>
+
 </head>
 
 <body>
-    <h2 style="font-family: 'Open Sans', sans-serif;">
 
-        <h1 style="font-family: 'Open Sans', sans-serif;" align=middle>FRAMEWORK YII</h1>
-        </br>
+    <div class="corpo">
 
-        <h2>SUMÁRIO</h2>
+        <div class="imagem">
+            <p class="i"><img src="../frameworkYii/img/yii3_full_white_for_dark.png" height="300" width="1200"
+                    alt="Logo Yii">
+            </p>
+
+            <h3>Programação para Web / Projeto de Interfaces Web </h3><br>
+            <h3>Alunas: Brenda Stéfany e Maria Ester</h3><br>
+
+        </div>
+        <br>
+
+        <p>
         <ol>
-            <li>O que é o framework Yii?</li>
-            <li>Para que serve?</li>
-            <li>Vantagens e desvantagens.</li>
-            <li>Quais recursos oferece?</li>
-            <li>Como instalar e usar?</li>
-            <li>Quem usa?</li>
+            <li class="titulos">SÚMARIO</li>
+            <ul class="tt1">
+                <li class="t1">O que é o framework Yii?</li>
+                <li class="t2">Para que serve?</li>
+                <li class="t3">Vantagens e desvantagens</li>
+                <li class="t4">Quais recursos oferece?</li>
+                <li class="t5">Como instalar e usar?</li>
+                <li class="t6">Quem usa?</li>
+                <li class="t7">Referências</li>
+            </ul>
+            <br>
+
+            <li class="titulos">O QUE É O FRAMEWORK YII?</li>
+            <ul>
+                <li class="t1">"simples e evolutivo" / Yes It Is !</li>
+                <li class="t1">O Yii é um framework em PHP que usa componentes para o desenvolvimento de aplicações Web
+                    sejam elas
+                    pequenas, médias ou grandes. </li>
+                <li class="t1"> Yii é um framework PHP de alta performance baseado em componentes para desenvolvimento
+                    rápido de
+                    aplicações
+                    web modernas. </li>
+                <li class="t1"> A proposta do Yii é fazer aplicações Web complexas de maneira simples, economizando
+                    tempo e
+                    recursos do
+                    servidor. O Yii oferece uma grande experiência de desenvolvimento para o programador e uma boa
+                    usabilidade
+                    da aplicação para os usuários finais.</li>
+                <li class="t1"> O Yii é open-source ou código aberto e é escrito totalmente na versão 5 da linguagem
+                    PHP. </li>
+                <li class="t1"> O Yii apresenta a arquitetura MVC na construção dos seus projetos e sua estrutura de
+                    arquivos e
+                    pastas muito
+                    bem organizada, separando o core do framework com o core da aplicação. </li>
+                <li class="t1"> O Yii apresenta suporte para todas as tecnologias do mercado atual. </li>
+            </ul>
+            <br>
+
+            <li class="titulos">PARA QUE SERVE</li>
+            <ul>
+                <li class="t2"> O Yii é um framework de programação web genérico que pode ser utilizado para o
+                    desenvolvimento de
+                    todo
+                    tipo
+                    de aplicações web usando PHP. </li>
+                <li class="t2"> Devido a sua arquitetura baseada em componentes e suporte sofisticado a caching, ele é
+                    adequado
+                    para o
+                    desenvolvimento de aplicações de larga escala, como sistemas de gerenciamento de conteúdo (CMS),
+                    projetos de
+                    e-commerce, Web services RESTful, entre outros. </li>
+            </ul>
+            <br>
+
+            <li class="titulos">VANTAGENS E DESVANTAGENS</li>
+            <br>
+            <ul class="titulos">VANTAGENS
+                <li class="t3"> Web de código aberto;</li>
+                <li class="t3"> Orientado a objetos;</li>
+                <li class="t3"> Utilização de design patterns;</li>
+                <li class="t3"> Baseado em MVC;</li>
+                <li class="t3"> Documentação atualizada, bem organizada e muito exemplificada;</li>
+                <li class="t3"> Fácil aprendizado;</li>
+                <li class="t3"> Features avançadas que outros frameworks não possuem nativamente.</li>
+            </ul>
+            <br>
+            <ul class="titulos"> DESVANTAGENS
+                <li class="t3"> Documentação e algumas referências todas em inglês;</li>
+                <li class="t3">O processo de instalação confunde alguns usuários iniciantes, levando-os a buscar um
+                    tutorial sobre a instalação.</li>
+            </ul>
+            <br>
+
+            <li class="titulos">QUAIS RECURSOS OFERECE?</li>
+            <ul>
+                <li class="t4">Implementa o padrão de arquitetura MVC e promove a organização do código nesse padrão.</li>
+                <li class="t4">Fornece construtores de consultas e ActiveRecord, suporte ao desenvolvimento de APIs RESTful,
+                    suporte a
+                    caching de múltiplas camadas, etc.</li>
+                <li class="t4">É extensível, podendo personalizá-lo ou substituir quase todas as partes do código central.</li>
+                <li class="t4">Também pode aproveitar-se de sua arquitetura para usar ou desenvolver extensões que podem ser
+                    redistribuídas.</li>
+                <li class="t4">O framework Yii apresenta uma alta performance.</li>
+            </ul>
+            <br>
+
+            <li class="titulos">COMO INSTALAR E USAR</li>
+            <ul>
+                <li class="t5">Caso possua o Composer instalado, poderá utilizá-lo para fazer o download do Yii e iniciar uma nova
+                    aplicação. Para isso, basta executar os seguintes comandos:</li>
+            </ul>
+            <br>
+
+            <li class="titulos">QUEM USA</li>
+            <ul>
+                <li class="t6"> Yii é apoiado por equipes de desenvolvedores do código central e por uma ampla comunidade de
+                    profissionais
+                    constantemente contribuindo com o desenvolvimento do Yii. </li>
+                <li class="t6"> As tendências mais relevantes do desenvolvimento Web e melhores práticas e funcionalidades
+                    encontradas
+                    em
+                    outros frameworks e projetos são incorporadas regularmente no core do framework e expostas via
+                    interfaces
+                    simples e elegantes. </li>
+            </ul>
+            <br>
+
+            <li class="titulos">REFERÊNCIAS</li>
+            <ul>
+                <li class="t7"><a
+                        href="https://www.devmedia.com.br/php-yii-framework/30898">https://www.devmedia.com.br/php-yii-framework/30898</a>
+
+                </li>
+                <li class="t7"> <a href="https://www.yiiframework.com/doc/guide/2.0/pt-br/intro-yii">
+                        https://www.yiiframework.com/doc/guide/2.0/pt-br/intro-yii</a></li>
+                <li class="t7"> <a
+                        href="https://medium.com/phprio/por-que-escolhi-o-yii-framework-como-principal-framework-php-d2dd8c7fbb17">
+                        https://medium.com/phprio/por-que-escolhi-o-yii-framework-como-principal-framework-php-d2dd8c7fbb17</a>
+                </li>
+                <li class="t7"> <a href="https://www.devmedia.com.br/primeiros-passos-com-yii-framework/36850">
+                        https://www.devmedia.com.br/primeiros-passos-com-yii-framework/36850</a></li>
+                <li class="t7"> <a
+                        href="https://thallitaceleste.blogspot.com/2014/04/ola-galerinha-demorou-mas-chegou-hein-e.html">
+                        https://thallitaceleste.blogspot.com/2014/04/ola-galerinha-demorou-mas-chegou-hein-e.html</a>
+                </li>
+                <li class="t7"> <a href="https://youtube.com/playlist?list=PLBD8to5dJhvzp1PPijCsGBKZnHTVtHf7a">
+                        https://youtube.com/playlist?list=PLBD8to5dJhvzp1PPijCsGBKZnHTVtHf7a</a></li>
+            </ul>
+            <br>
         </ol>
-        </br>
-
-        <h2>O QUE É O FRAMEWORK YII</h2>
-        <script src="" type="">teste</script>
-        <p> "simples e evolutivo" / Yes It Is !</p>
-        <p> O Yii é um framework em PHP que usa componentes para o desenvolvimento de aplicações Web sejam elas
-            pequenas, médias ou grandes. </p>
-        <p> Yii é um framework PHP de alta performance baseado em componentes para desenvolvimento rápido de aplicações
-            web modernas. </p>
-        <p> A proposta do Yii é fazer aplicações Web complexas de maneira simples, economizando tempo e recursos do
-            servidor. O Yii oferece uma grande experiência de desenvolvimento para o programador e uma boa usabilidade
-            da aplicação para os usuários finais. </p>
-        <p> O Yii é open-source ou código aberto e é escrito totalmente na versão 5 da linguagem PHP. </p>
-        <p> O Yii apresenta a arquitetura MVC na construção dos seus projetos e sua estrutura de arquivos e pastas muito
-            bem organizada, separando o core do framework com o core da aplicação. </p>
-        <p> O Yii apresenta suporte para todas as tecnologias do mercado atual. </p>
-        </br>
-
-        <h2>PARA QUE SERVE</h2>
-        <p> O Yii é um framework de programação web genérico que pode ser utilizado para o desenvolvimento de todo tipo
-            de aplicações web usando PHP. </p>
-        <p> Devido a sua arquitetura baseada em componentes e suporte sofisticado a caching, ele é adequado para o
-            desenvolvimento de aplicações de larga escala, como sistemas de gerenciamento de conteúdo (CMS), projetos de
-            e-commerce, Web services RESTful, entre outros. </p>
-        </br>
-
-        <h2>VANTAGENS E DESVANTAGENS</h2>
-        <h3>VANTAGENS</h3>
-        <li> Web de código aberto;</li>
-        <li> Orientado a objetos;</li>
-        <li> Utilização de design patterns;</li>
-        <li> Baseado em MVC;</li>
-        <li> Documentação atualizada, bem organizada e muito exemplificada;</li>
-        <li> Fácil aprendizado;</li>
-        <li> Features avançadas que outros frameworks não possuem nativamente.</li>
-
-        <h3>DESVANTAGENS</h3>
-        <li> Documentação e algumas referências todas em inglês;</li>
-        <li>O processo de instalação confunde alguns usuários iniciantes, levando-os a buscar um tutorial sobre a
-            instalação.</li>
+        </p>
         <br>
 
-        <h2>QUAIS RECURSOS OFERECE?</h2>
-        <li>Implementa o padrão de arquitetura MVC e promove a organização do código nesse padrão.</li>
-        <li>Fornece construtores de consultas e ActiveRecord, suporte ao desenvolvimento de APIs RESTful, suporte a
-            caching de múltiplas camadas, etc.</li>
-        <li>É extensível, podendo personalizá-lo ou substituir quase todas as partes do código central.</li>
-        <li>Também pode aproveitar-se de sua arquitetura para usar ou desenvolver extensões que podem ser
-            redistribuídas.</li>
-        <li>O framework Yii apresenta uma alta performance.</li>
 
-        <h2>COMO INSTALAR E USAR</h2>
-        <p>Caso possua o Composer instalado, poderá utilizá-lo para fazer o download do Yii e iniciar uma nova
-            aplicação. Para isso, basta executar os seguintes comandos:</p>
-        <br>
 
-        <h2>QUEM USA</h2>
-        <p> Yii é apoiado por equipes de desenvolvedores do código central e por uma ampla comunidade de profissionais
-            constantemente contribuindo com o desenvolvimento do Yii. </p>
-        <p> As tendências mais relevantes do desenvolvimento Web e melhores práticas e funcionalidades encontradas em
-            outros frameworks e projetos são incorporadas regularmente no core do framework e expostas via interfaces
-            simples e elegantes. </p>
-        <br>
-
-        <h2>REFERÊNCIAS</h2>
-        <li><a
-                href="https://www.devmedia.com.br/php-yii-framework/30898">https://www.devmedia.com.br/php-yii-framework/30898</a>
-
-        </li>
-        <li> <a href="https://www.yiiframework.com/doc/guide/2.0/pt-br/intro-yii">
-                https://www.yiiframework.com/doc/guide/2.0/pt-br/intro-yii</a></li>
-        <li> <a
-                href="https://medium.com/phprio/por-que-escolhi-o-yii-framework-como-principal-framework-php-d2dd8c7fbb17">
-                https://medium.com/phprio/por-que-escolhi-o-yii-framework-como-principal-framework-php-d2dd8c7fbb17</a>
-        </li>
-        <li> <a href="https://www.devmedia.com.br/primeiros-passos-com-yii-framework/36850">
-                https://www.devmedia.com.br/primeiros-passos-com-yii-framework/36850</a></li>
-        <li> <a href="https://thallitaceleste.blogspot.com/2014/04/ola-galerinha-demorou-mas-chegou-hein-e.html">
-                https://thallitaceleste.blogspot.com/2014/04/ola-galerinha-demorou-mas-chegou-hein-e.html</a></li>
-        <li> <a href="https://youtube.com/playlist?list=PLBD8to5dJhvzp1PPijCsGBKZnHTVtHf7a">
-                https://youtube.com/playlist?list=PLBD8to5dJhvzp1PPijCsGBKZnHTVtHf7a</a></li>
-        </br>
+    </div>
 
 </body>
 
